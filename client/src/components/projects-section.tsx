@@ -13,7 +13,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
     technologies: ['React', 'TypeScript', 'Tailwind'],
     category: 'web',
-    color: 'blue',
+    color: 'purple',
     demoUrl: '#',
     githubUrl: '#'
   },
@@ -24,7 +24,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
     technologies: ['React Native', 'Firebase', 'Redux'],
     category: 'mobile',
-    color: 'purple',
+    color: 'indigo',
     demoUrl: '#',
     githubUrl: '#'
   },
@@ -35,7 +35,7 @@ const projects = [
     image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=400',
     technologies: ['Node.js', 'MongoDB', 'ML'],
     category: 'api',
-    color: 'indigo',
+    color: 'violet',
     demoUrl: '#',
     githubUrl: '#'
   },
@@ -111,7 +111,7 @@ export default function ProjectsSection() {
                 variant={activeFilter === filter.value ? "default" : "secondary"}
                 onClick={() => setActiveFilter(filter.value)}
                 className={activeFilter === filter.value ? 
-                  "bg-blue-600 hover:bg-blue-700" : 
+                  "bg-purple-600 hover:bg-purple-700" : 
                   "bg-slate-700 text-slate-300 hover:bg-slate-600"
                 }
               >

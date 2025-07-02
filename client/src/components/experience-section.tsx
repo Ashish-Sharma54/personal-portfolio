@@ -9,7 +9,7 @@ const experiences = [
     period: '2022 - Present',
     description: 'Led development of enterprise applications using React, Node.js, and AWS. Managed a team of 5 developers and implemented CI/CD pipelines.',
     technologies: ['React', 'Node.js', 'AWS'],
-    color: 'blue',
+    color: 'purple',
     side: 'left'
   },
   {
@@ -18,7 +18,7 @@ const experiences = [
     period: '2020 - 2022',
     description: 'Built scalable web applications from scratch. Implemented modern frontend frameworks and optimized backend performance by 40%.',
     technologies: ['Vue.js', 'Python', 'Docker'],
-    color: 'purple',
+    color: 'indigo',
     side: 'right'
   },
   {
@@ -27,7 +27,7 @@ const experiences = [
     period: '2018 - 2020',
     description: 'Developed responsive websites and web applications. Collaborated with designers to implement pixel-perfect UI designs.',
     technologies: ['JavaScript', 'CSS', 'jQuery'],
-    color: 'indigo',
+    color: 'violet',
     side: 'left'
   }
 ];
@@ -51,7 +51,7 @@ export default function ExperienceSection() {
         
         <div className="relative">
           {/* Timeline line */}
-          <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-gradient-to-b from-blue-600 to-purple-600 hidden md:block"></div>
+          <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-gradient-to-b from-purple-600 to-indigo-600 hidden md:block"></div>
           
           <div className="space-y-16">
             {experiences.map((exp, index) => (

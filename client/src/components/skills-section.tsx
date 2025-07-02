@@ -3,8 +3,8 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 
 const technicalSkills = [
-  { name: 'JavaScript/TypeScript', level: 95, color: 'blue' },
-  { name: 'React/Next.js', level: 90, color: 'purple' },
+  { name: 'JavaScript/TypeScript', level: 95, color: 'purple' },
+  { name: 'React/Next.js', level: 90, color: 'indigo' },
   { name: 'Node.js/Express', level: 85, color: 'green' },
   { name: 'Python/Django', level: 80, color: 'yellow' },
   { name: 'AWS/Cloud Services', level: 75, color: 'orange' }
@@ -12,11 +12,11 @@ const technicalSkills = [
 
 const techStack = [
   { name: 'JavaScript', icon: '🟨', color: 'yellow' },
-  { name: 'React', icon: '⚛️', color: 'blue' },
+  { name: 'React', icon: '⚛️', color: 'purple' },
   { name: 'Node.js', icon: '🟢', color: 'green' },
   { name: 'Python', icon: '🐍', color: 'yellow' },
   { name: 'AWS', icon: '☁️', color: 'orange' },
-  { name: 'Docker', icon: '🐳', color: 'blue' },
+  { name: 'Docker', icon: '🐳', color: 'indigo' },
   { name: 'MongoDB', icon: '🍃', color: 'green' },
   { name: 'Git', icon: '📋', color: 'red' }
 ];
@@ -47,7 +47,7 @@ export default function SkillsSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-blue-400 mb-6">Technical Skills</h3>
+            <h3 className="text-2xl font-bold text-purple-400 mb-6">Technical Skills</h3>
             
             <div className="space-y-6">
               {technicalSkills.map((skill, index) => (
@@ -76,7 +76,7 @@ export default function SkillsSection() {
             transition={{ duration: 0.6 }}
             viewport={{ once: true }}
           >
-            <h3 className="text-2xl font-bold text-purple-400 mb-6">Tech Stack</h3>
+            <h3 className="text-2xl font-bold text-indigo-400 mb-6">Tech Stack</h3>
             
             <div className="grid grid-cols-4 gap-6">
               {techStack.map((tech, index) => (

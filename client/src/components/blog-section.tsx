@@ -11,7 +11,7 @@ const blogPosts = [
     image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300',
     category: 'Development',
     date: 'Mar 15, 2024',
-    color: 'blue'
+    color: 'purple'
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const blogPosts = [
     image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=300',
     category: 'AI/ML',
     date: 'Mar 10, 2024',
-    color: 'purple'
+    color: 'indigo'
   },
   {
     id: 3,
