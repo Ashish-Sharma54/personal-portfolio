@@ -11,7 +11,7 @@ import Footer from '@/components/footer';
 export default function Home() {
   useEffect(() => {
     // Add any page initialization logic here
-    document.title = 'Alex Chen - Full Stack Developer Portfolio';
+    document.title = 'Ashish Sharma – AI, IoT & Embedded Systems Engineer | Smart Tech Innovator';
   }, []);
 
   return (
